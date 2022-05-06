@@ -50,6 +50,8 @@ You can choose from multiple different movement and look at "strategies", combin
 ## How do I use this code?
 Any way you want. But most likely you'll want to figure out the behavior you need or want and copy/paste the code into your game, combining the movement and look at into one function. The demo is a lot more complicated because it supports so many options.
 
+## Credits
+Ship image is part of the [Space Shooter Redux](https://www.kenney.nl/assets/space-shooter-redux) asset pack from Kenney.nl - license CC0 1.0 Universal.
 
 
 
