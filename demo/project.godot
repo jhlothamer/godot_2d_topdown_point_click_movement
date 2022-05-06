@@ -1,0 +1,44 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "Ship",
+"language": "GDScript",
+"path": "res://scenes/ship/ship.gd"
+}, {
+"base": "Reference",
+"class": "StopWatch",
+"language": "GDScript",
+"path": "res://stop_watch.gd"
+} ]
+_global_script_class_icons={
+"Ship": "",
+"StopWatch": ""
+}
+
+[application]
+
+config/name="Godot 2D Topdown Smooth Movement - Point and Click"
+run/main_scene="res://demo.tscn"
+config/icon="res://icon.png"
+
+[godot_helper_pack_plugin]
+
+blocking_global_color=Color( 1, 1, 1, 1 )
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_clear_color=Color( 0, 0.0431373, 0.223529, 1 )
+environment/default_environment="res://default_env.tres"
